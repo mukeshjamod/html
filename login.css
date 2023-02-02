@@ -17,43 +17,78 @@ heading{
 
 }
 section{
+    text-align: center;
+    margin: auto;
     
-   
+    top: 20%;
+    height: 100;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.418);
+    
      display:grid;
+     grid-area: auto;
+     
+     
      align-items: center;
      justify-items: center;
+   
 }
 
 section p{
     text-decoration: solid;
+    font-size: xx-large;
     display: grid;
     display:flex;
+    grid-template-columns: 200px;
+    grid-template-rows: 500px;
+    flex-grow: 5;
     grid-gap:10px;
+    color:rgb(13, 240, 191);
+    align-items: center;
+    margin-left:12%;
+    margin-top: -25%;
+    
 }
 
-section form{
+
+/* .email{ 
+    display: flex;
     display: grid;
     
-    grid-template-columns: 100%;
-    grid-template-rows: 50%;
-
+    
+    
+    
+    
+}*/
+.grid{
+    background-color: aliceblue;
+    display: felx;
 }
 section button{
    
    
     
-    border: 10px solid rgb(83, 75, 75);
+    border: 10px solid rgb(236, 77, 77);
     padding: 6px 14px;
     display: inline-block;
     border-radius: 20px;
+    margin-top: 10%;
+}
+section botton:hover{
+
+    background-color: aquamarine;
+    color: rgb(15, 19, 17);
+    transition: 2s;
 }
 
 footer{
     font-style: oblique;
     
     font-size: larger;
-    padding-block-end: 10px;
-    margin-block-end: 10px;
+    margin: 400 0 0 0;
+
     
 
 
@@ -63,7 +98,8 @@ footer p{
 
 }
 
-/* .wrapper{
+
+ /* .wrapper{ 
     display: flex;
     justify-content: center;
     margin-top: 90px;
